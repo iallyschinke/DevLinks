@@ -76,18 +76,20 @@ body * {
   background: white var(--switch-br-url) no-repeat center;
   border: 0;
   border-radius: 50%;
-
   position: absolute;
   top: 50%;
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
-
-  animation: slide-back 0.2s;
+  transition: left 0.2s ease;
 }
 
 .light #switch button:hover {
   outline: 8px solid var(--highlight-color);
+}
+
+.light #switch button {
+  left: calc(100% - 32px);
 }
 
 #switch span {
@@ -183,7 +185,7 @@ footer {
   }
 }
 @keyframes slide-back {
-  form {
+  from {
     left: 50%;
   }
   to {
