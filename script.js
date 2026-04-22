@@ -8,9 +8,9 @@ function toggleMode() {
   // substituir a imagem
   if (html.classList.contains("light")) {
     // se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "./assets/ially-light.png");
+    img.setAttribute("src", "/assets/ially-light.png");
   } else {
     // se não tiver light mode, adicionar a imagem dark
-    img.setAttribute("src", "./assets/ially.png");
+    img.setAttribute("src", "/assets/ially.png");
   }
 }
