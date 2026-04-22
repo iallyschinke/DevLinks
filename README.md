@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como portfolio online.
 
-- [Acesse o projeto finalizado, online](https://iallyschinke.github.io/devlinks/)
+- [Acesse o projeto finalizado, online](https://iallyschinke.github.io/devlinks/](https://iallyschinke.github.io/DevLinks/)
 
 ## 🔖 Layout
 
